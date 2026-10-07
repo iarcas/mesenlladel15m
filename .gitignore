@@ -1,0 +1,11 @@
+# Old 2012 archive and reference material: not part of the 2026 rebuild's source
+/MesEnllaDel15M-ORIGINAL/
+/memoria_tecnica.pdf
+/memoria_teorica.pdf
+/mesenlladel15m-resumPremsa.pdf
+
+# Build output and deps (regenerable)
+/web/node_modules/
+/web/dist/
+
+.DS_Store

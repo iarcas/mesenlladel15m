@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "terminal_dosislight";
+  src: url("/fonts/terminaldosis-light-webfont.woff") format("woff"),
+       url("/fonts/terminaldosis-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --ink: #444444;
+  --text: #777777;
+  --highlight: #f3d354;
+  --bg: #fdfdfd;
+  --footer-text: #aaaaaa;
+  --max-width: 1110px;
+}
+
+* { box-sizing: border-box; }
+
+html { overflow-y: scroll; }
+
+body {
+  margin: 0;
+  font-family: "terminal_dosislight", "Trebuchet MS", sans-serif;
+  background-color: var(--bg);
+  font-weight: normal;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+b { color: var(--ink); }
+
+h2 { color: var(--ink); }
+
+h3 {
+  color: var(--ink);
+  font-size: 20px;
+  margin-top: 1.8em;
+}
+
+a {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+#header {
+  padding: 10px 16px 0;
+  background: url("/img/menu_bg.png") bottom repeat-x;
+}
+
+#language {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: right;
+  font-size: 14px;
+}
+
+#language a, #language span.current {
+  padding: 0 4px;
+}
+
+span.current { font-weight: bold; color: var(--ink); }
+
+#image_header {
+  max-width: var(--max-width);
+  margin: 10px auto;
+}
+
+#image_header img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+}
+
+#nav {
+  max-width: var(--max-width);
+  margin: 0 auto 12px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-bottom: 8px;
+}
+
+#nav .item { flex: 0 0 auto; }
+#nav .item.contact { margin-left: auto; }
+
+#nav a, #nav .selected {
+  display: inline-block;
+  padding: 6px 16px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+#nav a:hover {
+  background-color: var(--highlight);
+  color: #3f3f3f;
+}
+
+#nav .selected {
+  background-color: var(--highlight);
+  color: #3f3f3f;
+}
+
+#content {
+  max-width: var(--max-width);
+  min-height: 300px;
+  margin: 30px auto;
+  padding: 0 16px;
+  font-size: 18px;
+  color: var(--text);
+}
+
+#content p { margin: 0 0 1em; }
+
+.relaunch-note {
+  font-size: 14px;
+  color: #999;
+  border-left: 3px solid var(--highlight);
+  padding-left: 12px;
+  margin-top: 1.5em;
+}
+
+#footer {
+  padding: 16px 16px 10px;
+  color: var(--footer-text);
+  background: url("/img/footer_bg.png") top repeat-x;
+}
+
+#made_with {
+  margin: 5px auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+#copyright {
+  margin: 10px auto;
+  text-align: center;
+  max-width: 400px;
+  font-size: 13px;
+}
+
+#copyright img { border: 0; vertical-align: middle; }
+
+@media (max-width: 640px) {
+  #nav a, #nav .selected { font-size: 15px; padding: 6px 10px; }
+  #content { font-size: 16px; }
+}
