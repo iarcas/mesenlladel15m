@@ -15,7 +15,7 @@ static site with vanilla JavaScript and the browser's native Canvas2D
 API, no applet, no live database, no build-time dependency beyond
 Vite.
 
-Live site: _add your deployed URL here once it's live_
+Live site: https://mesenlladel15m.vercel.app
 
 For the full story, including the original hypothesis, the 2026
 rebuild, and acknowledgments, see the project's own **About** page
