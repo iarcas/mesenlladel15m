@@ -20,7 +20,7 @@ export const pages = {
       title: "Sobre el projecte",
       html: `
 <p>Aquest projecte va ser el meu Treball de Fi de Grau a ESDi (Escola Superior de Disseny), tutoritzat per Victoria Sacco i presentat el setembre de 2012.</p>
-<p>Partia de la hipòtesi: <b>Twitter (avui X) era més que una plataforma de microblogging; era una eina d'apoderament social que va exercir un paper important en esdeveniments socials com el Moviment #15M</b>.</p>
+<p>Partia de la hipòtesi: <b>Twitter (avui X) és més que una plataforma de microblogging; és una eina d'apoderament social que exerceix un paper important en esdeveniments socials com el Moviment #15M</b>.</p>
 <p>En aquells anys es van poder observar diverses accions col·lectives protagonitzades per les <em>multituds intel·ligents</em>, que feien servir Twitter com a canal per organitzar-se i manifestar-se.</p>
 <p>El Moviment #15M va ser un moviment social que va consistir en una sèrie de mobilitzacions ciutadanes pacífiques, sorgides sobretot a Twitter. Davant la dificultat de seguir en directe la quantitat de <em>tweets</em> generats amb les eines d'aquella xarxa, aquest projecte va proposar utilitzar els missatges enviats a Twitter per construir una història més enllà dels mitjans de comunicació tradicionals.</p>
 <p><b>Més enllà dels Trending Topics: una visualització sonoritzada sobre el #15M</b> va consistir en la creació d'una plataforma visual i sonora online capaç de llegir els <em>tweets</em> que milers d'usuaris van enviar durant el primer mes d'aquest moviment (corresponent al període de les acampades) i donar com a resultat una narració col·lectiva.</p>
@@ -44,7 +44,7 @@ export const pages = {
       title: "Sobre el proyecto",
       html: `
 <p>Este proyecto fue mi Trabajo de Fin de Grado en ESDi (Escola Superior de Disseny), tutorizado por Victoria Sacco y presentado en septiembre de 2012.</p>
-<p>Partía de la hipótesis: <b>Twitter (hoy X) era más que una plataforma de microblogging; era una herramienta de empoderamiento social que ejerció un papel importante en acontecimientos sociales como el Movimiento #15M</b>.</p>
+<p>Partía de la hipótesis: <b>Twitter (hoy X) es más que una plataforma de microblogging; es una herramienta de empoderamiento social que ejerce un papel importante en acontecimientos sociales como el Movimiento #15M</b>.</p>
 <p>En aquellos años se pudieron observar diversas acciones colectivas protagonizadas por las <em>multitudes inteligentes</em>, que usaban Twitter como canal para organizarse y manifestarse.</p>
 <p>El Movimiento #15M fue un movimiento social que consistió en una serie de movilizaciones ciudadanas pacíficas, surgidas sobre todo en Twitter. Frente a la dificultad de seguir en directo la cantidad de <em>tweets</em> generados con las herramientas de aquella red, este proyecto propuso utilizar los mensajes enviados a Twitter para construir una historia más allá de los medios de comunicación tradicionales.</p>
 <p><b>Más allá de los Trending Topics: una visualización sonorizada sobre el #15M</b> consistió en la creación de una plataforma visual y sonora online capaz de leer los <em>tweets</em> que miles de usuarios enviaron durante el primer mes de este movimiento (correspondiente al período de las acampadas) y dar como resultado una narración colectiva.</p>
@@ -68,7 +68,7 @@ export const pages = {
       title: "About this project",
       html: `
 <p>This project was my final degree project at ESDi (Escola Superior de Disseny), supervised by Victoria Sacco and presented in September 2012.</p>
-<p>It started with the following hypothesis: <b>Twitter (now X) was more than a microblogging platform; it was a social empowerment tool that played an important role in social movements like the #15M Movement</b>.</p>
+<p>It started with the following hypothesis: <b>Twitter (now X) is more than a microblogging platform; it is a social empowerment tool that plays an important role in social movements like the #15M Movement</b>.</p>
 <p>In those years, <em>smart mobs</em> were responsible for different collective actions, using Twitter to organize and demonstrate.</p>
 <p>The #15M Movement was a social movement consisting of peaceful citizen mobilizations that arose mostly on Twitter. Facing the difficulty of following in real time the number of <em>tweets</em> generated with that network's tools, this project proposed using the messages sent to Twitter to build a story beyond traditional media.</p>
 <p><b>Beyond Trending Topics: a sonified visualization about #15M</b> consisted of an online visual and audible platform able to read the <em>tweets</em> that thousands of users sent during the first month of this movement (the camping period), resulting in a collective narration.</p>
